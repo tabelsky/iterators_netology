@@ -22,6 +22,8 @@ for item in number_sq_3:
 
 print('-'*20)
 number_sq_4 = tuple(item ** 2 for item in numbers)
+print(number_sq_4)
 
 print('-'*20)
 number_sq_5 = set(item ** 2 for item in numbers)
+print(number_sq_5)
